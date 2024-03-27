@@ -1,0 +1,864 @@
+/* this is font family */
+@font-face {
+    font-family: PlusJakartaRegular;
+    src: url(./PlusJakartaRegular.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/* This is header */
+.header1{
+    display: flex;
+    width: 100%;
+    height: 134px;
+    flex-wrap: wrap;
+    
+}
+.innerheader{
+    display: flex;
+    width: 100%;
+    height: 41px;
+    background-color:#B7DBE64D;
+}
+/* This is logo-1 */
+.honeywell{
+    width: 60px;
+    height: 25px;
+    margin-left: 83px;
+    margin-top: 10px;
+}
+.pur{
+    width: 60px;
+    height: 22px;
+    margin-top: 11px;
+    margin-left: 14px;
+}
+.braun{
+    width: 59.8px;
+    height: 23px;
+    margin-top: 11px;
+    margin-left: 9px;
+}
+.text1{
+    font-size: 12px;
+    color: black;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    font-family: PlusJakartaRegular;
+    font-weight: 100;
+    margin-top: 13px;
+    margin-left: 16px;
+}
+.text2{
+    font-size: 14px;
+    color: black;
+    line-height: 23.8px;
+    
+    font-family: PlusJakartaRegular;
+    font-weight: 100;
+    margin-top: 7px;
+    margin-left: 683px;
+    text-decoration: underline;
+}
+.text3{
+    font-size: 14px;
+    color: black;
+    line-height: 23.8px;
+    font-family: PlusJakartaRegular;
+    font-weight: 100;
+    margin-top: 6px;
+    margin-left: 28px;
+    text-decoration: underline;
+}
+/* This is inner header */
+.innerheader1{
+    display: flex; 
+    width: 100%;
+    height: 93px;
+    background-color:white;
+    align-items: center;
+
+}
+.logo{
+    width: 60px;
+    height: 58px;
+    margin-bottom: 18px;
+    margin-left: 70px;
+}
+.list1{
+    display: flex;
+    list-style: none;
+    margin-left: 4px;
+    font-size: 16px;
+    font-family:PlusJakartaRegular ;
+    margin-bottom: 14px;
+    
+}
+.list1 a{
+    text-decoration: none;
+    color: black;
+    padding-left: 36px;
+} 
+/* This is search icon */
+.search1{
+    margin-left: 841px;
+   margin-bottom: 2px;
+}
+/* This is main background image-1 */
+.main1{
+    display: flex;
+    width: 1519.2px;
+    background-image: url(./image/pic5.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 621.8px;
+}
+/* This is button-1 */
+.list1 a:hover{
+color: blue;
+}
+
+.main-1box{
+    width: 427.2px;
+    height: 510px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.main-textbox1{
+    display: flex;
+    width: 247px;
+    height: 208px;
+    margin-left: 18px;
+    margin-top: 57px;
+}
+.b2font{
+    font-size: 45px;
+    color: #005eba;
+    text-align: right;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    line-height: 1.1;
+    font-family: PlusJakartaRegular;
+    
+}
+.text-box2{
+    width: 228.29px;
+    height: 77.6px;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+.b3font{
+    display: flex;
+    text-align: right;
+    letter-spacing: .5px;
+    font-family: 'plusjakartasans';
+    line-height: 20px;
+    margin-top: 0;
+    color: #333;
+}
+.bluebutton{
+    display: flex;
+    width: 247px;
+    height: 46.2px;
+    margin-left: 14px;
+    margin-top: 31px;
+}
+.bluebutton1{
+background-color:#005dba ;
+border:2px solid #005dba ;
+color: white;
+cursor: pointer;
+font-family:'PlusJakartaRegula','Helvetica neue',Arial, Helvetica, sans-serif;
+box-sizing: border-box;
+border-radius: 3rem;
+box-shadow: none;
+min-width: 249px;
+    font-size: 1.5rem;
+    letter-spacing: .58px;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: none;
+    font-size: 15px;
+    margin-top: 0;
+    margin-left: 0;
+    padding: 12px 36px;
+}
+/* This is button-2 */
+.bluebutton1:hover{
+    color:#005dba ;
+    background-color: white;
+}
+/* This is  feature retail partners */
+.new1{
+    display: flex;
+    width:100%;
+    height: 264.38px;
+    background-color: white;
+}
+.newtext4{
+display: flex;
+width: 1215px;
+height: 44px;
+
+}
+.text4{
+    display: flex;
+    font-size: 28px;
+    line-height: 38px;
+    margin-top: 44px;
+    margin-left: 602px;
+    font-weight: 100;
+    font-family: PlusJakartaRegular;
+    color:#333333;
+
+}
+.space1{
+    display: flex;
+    width: 300px;
+    height: 108px;
+    margin-left: -677px;
+    margin-top: 136px;
+    margin-right: 0;
+   
+}
+.image6{
+    display: flex;
+    width: 300px;
+    height: 108px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0;
+}
+.space2{
+    display: flex;
+    width: 300px;
+    height: 79px;
+}
+.image7{
+    display: flex;
+    width: 300px;
+    height: 79px;
+    margin-left: 460px;
+    margin-top: 135px;
+    margin-right: 0;
+
+}
+/* this is main image-2 */
+.new2{
+    width: 100%;
+    height: 260.75px;
+    background-color: white;
+}
+.image8{
+    width: 1440px;
+    height: 200px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.new3{
+   display: flex;
+    width: 100%;
+    height: 640px;
+    background-color: white;
+    padding-bottom: 43px;
+    padding-top: 39px;
+    flex-direction: column;
+}
+.seperate1{
+    width: 589.44px;
+    height: 557.48px;
+    background-color: rgb(238,238,238);
+    margin-left: 152px;
+    margin-top: 40px;
+}
+/* This is image-3 */
+.image9{
+    width: 589.44px;
+    height: 434.6px;
+    margin-left: 0;
+    margin-top: 0;
+}
+.newtext5{
+    width: 561.44px;
+    height: 44px;
+}
+.text5{
+    color: #005dba;
+    font-size: 25.2px;
+    line-height: 34px;
+    vertical-align: baseline;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(0,93,186);
+    text-align: center;
+    text-indent: opx;
+    font-family:  PlusJakartaRegular;
+    margin-top: -64px;
+    margin-left: 21px;
+
+}
+.newtext6{
+    width: 561.44px;
+    height: 36.95;
+}
+.text6{
+    color: #231f20;
+    font-family:PlusJakartaRegular ;
+    font-size: 15.4px;
+    line-height: 18.48px;
+    vertical-align: baseline;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(35,31,32);
+    text-align: center;
+    text-indent: opx;
+    margin-top: 14px;
+    margin-left: 27px;
+}
+.bluebutton2{
+    display: flex;
+    width: 589.44px;
+    height: 43.7px;
+    margin-left: 0;
+    margin-top: 19px;
+}
+.bluebutton3{
+    background-color: #005dba;
+    border: 2px solid #005dba;
+    color: white;
+    cursor: pointer;
+    font-family: 'PlusJakartaRegula', 'Helvetica neue', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    border-radius: 3rem;
+    box-shadow: none;
+    min-width: 241px;
+    font-size: 15px;
+    letter-spacing: normal;
+    text-align: center;
+    line-height: 21.5px;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-left: 159px;
+    padding: 10px 18px;
+    text-decoration: none solid rgb(0, 93, 186);
+}
+/* This is button-3 */
+.bluebutton3:hover{
+    color:#005dba ;
+    background-color: white;
+
+}
+.seperate2{
+    width: 589.44px;
+    height: 557.48px;
+    background-color: rgb(238,238,238);
+    margin-left: 778px;
+    margin-top: -557px;
+}
+/* This is image-4 */
+.image10{
+    width: 589.44px;
+    height: 434.6px;
+    margin-left: 0;
+    margin-top: 0;
+}
+.newtext7{
+    width: 561.44px;
+    height: 44px;
+}
+.text7{
+    color: #005dba;
+    font-size: 25.2px;
+    line-height: 34px;
+    vertical-align: baseline;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(0,93,186);
+    text-align: center;
+    text-indent: opx;
+    font-family:  PlusJakartaRegular;
+    margin-top: -65px;
+    margin-left: 19px;
+}
+.newtext8{
+    width: 561.44px;
+    height: 36.95;
+}
+.text8{
+    color: #231f20;
+    font-family:PlusJakartaRegular ;
+    font-size: 15px;
+    line-height: 18.48px;
+    vertical-align: baseline;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(35,31,32);
+    text-align: center;
+    text-indent: opx;
+    margin-top: 15px;
+    margin-left: 27px;
+    word-spacing: 0;
+}
+.bluebutton4{
+    display: flex;
+    width: 589.44px;
+    height: 43.7px;
+    margin-left: 0;
+    margin-top: 19px;
+}
+.bluebutton5{
+    background-color: #005dba;
+    border: 2px solid #005dba;
+    color: white;
+    cursor: pointer;
+    font-family: 'PlusJakartaRegula', 'Helvetica neue', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    border-radius: 3rem;
+    box-shadow: none;
+    min-width: 200px;
+    font-size: 15px;
+    letter-spacing: normal;
+    text-align: center;
+    line-height: 21.5px;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-left: 197px;
+    padding: 10px 18px;
+    text-decoration: none solid rgb(0, 93, 186);
+}
+/* This is button-4 */
+.bluebutton5:hover{
+    color:#005dba ;
+    background-color: white;
+
+}
+.new4{
+    display: flex;
+    width: 100%;
+    height: 164.75px;
+    background-color:#F5FAFD;
+    margin-top: -41px;
+}
+/* This is log-1 */
+.seperate3{
+    display: flex;
+    width: 427.2px;
+    height: 84px;
+    margin-top: 29px;
+    margin-left: 38px;
+}
+.image11{
+    width: 44px;
+    height: 44px;
+    margin-top: 0;
+    margin-left: 193px;
+}
+.newtext9{
+    color: #005dba;
+    font-size: 17px;
+    line-height: 16px;
+    word-spacing: 0px;
+    font-weight: 800;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(0, 93, 186);
+    text-align: center;
+    text-indent: 0px;
+    margin-top: 66px;
+    margin-left: -111px;
+}
+/* This is log-2 */
+.seperate4{
+    display: flex;
+    width: 427.2px;
+    height: 104px;
+    margin-top: 29px;
+    margin-left: 50px;
+}
+.image12{
+    width: 44px;
+    height: 44px;
+    margin-top: 0;
+    margin-left: 221px;
+}
+.newtext10{
+    color: #005dba;
+    font-size: 17px;
+    line-height: 16px;
+    word-spacing: 0px;
+    font-weight: 800;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(0, 93, 186);
+    text-align: center;
+    text-indent: 0px;
+    margin-top: 66px;
+    margin-left: -139px;
+}
+.newtext11{
+    color: #005dba;
+    font-size: 17px;
+    line-height: 16px;
+    word-spacing: 0px;
+    font-weight: 800;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(0, 93, 186);
+    text-align: center;
+    text-indent: 0px;
+    margin-top: 84px;
+    margin-left: -139px;
+}
+/* This is log-3 */
+.seperate5{
+    display: flex;
+    width: 427.2px;
+    height: 84px;
+    margin-top: 29px;
+    margin-left: 62px;
+}
+.image13{
+    width: 44px;
+    height: 44px;
+    margin-top: 0;
+    margin-left: 240px;
+}
+.newtext12{
+    color: #005dba;
+    font-size: 17px;
+    line-height: 16px;
+    word-spacing: 0px;
+    font-weight: 800;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(0, 93, 186);
+    text-align: center;
+    text-indent: 0px;
+    margin-top: 66px;
+    margin-left: -107px;
+}
+.seperate6{
+   width: 100%;
+   height: 1070.89px;
+   background-color: white;
+}
+/* This is image-5 */
+.image14{
+    width: 1440px;
+    height: 635px;
+    margin-top: 79px;
+    margin-left: 40px;
+}
+.seperate7{
+    display: flex;
+    width: 1440px;
+    height: 79.38px;
+    background-color: #F6F7F8;
+    margin-top: -3px;
+    margin-left: 41px;
+}
+.seperate8{
+    display: flex;
+    width: 1356px;
+    height: 44px;
+    margin-top: 25px;
+    margin-left: 42px;
+}
+.newtext13{
+    font-family: PlusJakartaRegular;
+    display: flex;
+    color: #005DBA;
+    font-size: 29px;
+    line-height: 34px;
+    vertical-align: baseline;
+    letter-spacing: 1.5px;
+    word-spacing: 0px;
+    font-weight: 300;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(0, 93, 186);
+    text-align: left;
+    text-indent: 0px;
+    margin-top: 5px;
+    margin-left: -1px;
+}
+.seperate9{
+    width: 1440px;
+    height: 218.38px;
+    background-color: #F6F7F8;
+    margin-top: 0;
+    margin-left: 41px;
+}
+.image15{
+    width: 46px;
+    height: 39.73px;
+    margin-top: 13px;
+    margin-left: 40px;
+}
+.seperate10{
+    width: 1281.49px;
+    height: 109.6px;
+    margin-top: -23px;
+    margin-left: 65px;
+}
+.newtext14{
+color: #333333;
+font-family:PlusJakartaRegular ;
+font-size: 20px;
+vertical-align: baseline;
+letter-spacing: normal;
+word-spacing: 0px;
+font-weight: 300;
+font-style: italic;
+font-variant: normal;
+text-decoration: none solid rgb(51,51,51);
+text-align: left;
+text-indent: 0px;
+margin-top: 0;
+margin-left: 0;
+padding-left: 36px;
+}
+.newtext15{
+    font-family:PlusJakartaRegular ;
+    color: #333333;
+    font-size: 20px;
+    line-height: 28px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    font-weight: 600;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(51,51,51);
+    text-align: left;
+    text-indent: 0px;
+    margin-top: 7px;
+    margin-left: 35px;
+}
+/* This is footer */
+.new5{
+    display: flex;
+    width: 100%;
+    height: 430.33px;
+    background-color: #005DBA;
+}
+.new6{
+    width: 100%;
+    height: 288.52px;
+    margin-top: 10px;
+}
+.newtext16{
+    color: white;
+    margin-top: 24px;
+    margin-left: 152px;
+    font-family: PlusJakartaRegular;
+    font-size: 20px;
+}
+.new7{
+    display: flex;
+    width: 146.85px;
+    height: 189.6px;
+    margin-top: 12px;
+    margin-left: 153px;
+}
+/* This is list-1 */
+.list11{
+    list-style: none;
+    font-size: 15px;
+    color:white;
+    font-family:PlusJakartaRegular ;
+    line-height: 33px;
+    font-weight: 400;
+    text-decoration: none solid rgb(255,255,255);
+    text-align: left;
+    margin-top: 0;
+    margin-left: 0;
+}
+.newtext17{
+    color: white;
+    margin-top: 38px;
+    margin-left: -1152px;
+    font-family: PlusJakartaRegular;
+    font-size: 20px;
+}
+.new9{
+    display: flex;
+    width: 146.85px;
+    height: 227.6px;
+    margin-top: -6px;
+    margin-left: -1154px;
+}
+/* This is list-2 */
+.list12{
+    list-style: none;
+    font-size: 15px;
+    color:white;
+    font-family:PlusJakartaRegular ;
+    line-height: 33px;
+    font-weight: 400;
+    text-decoration: none solid rgb(255,255,255);
+    text-align: left;
+    margin-top: 0;
+    margin-left: 0;
+}
+.newtext18{
+    color: white;
+    margin-top: 38px;
+    margin-left: -939px;
+    font-family: PlusJakartaRegular;
+    font-size: 20px;
+}
+.newtext19{
+    color: white;
+    margin-top: -5px;
+    margin-left: -939px;
+    font-family: PlusJakartaRegular;
+    font-size: 20px;
+}
+.new11{
+    display: flex;
+    width: 146.85px;
+    height: 171.6px;
+    margin-top: 4px;
+    margin-left: -940px;
+}
+/* This is list-3 */
+.list13{
+    list-style: none;
+    font-size: 15px;
+    color:white;
+    font-family:PlusJakartaRegular ;
+    line-height: 39px;
+    font-weight: 400;
+    text-decoration: none solid rgb(255,255,255);
+    text-align: left;
+    margin-top: 0;
+    margin-left: 0;
+}
+.new13{
+    display: flex;
+    list-style: none;
+}
+.new12{
+    display: flex;
+    margin-top: 136px;
+    margin-left: -384px;
+}
+.icons1{
+    padding-right: 41px;
+}
+.new14{
+    display: flex;
+    width: 1215px;
+    height: 55.8px;
+    margin-left: -1186px;
+    margin-top: 304px;
+    border-bottom: 1px solid white;
+
+}
+.new15{
+    list-style: none;
+}
+.new16{
+    width: 253.7px;
+    height: 40px;
+    letter-spacing: 0.5px;
+    vertical-align: baseline;
+    text-align: left;
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 14px;
+    font-family:PlusJakartaRegular ;
+    color:white;
+    margin-top: 16px;
+    margin-left: 0;
+}
+.new17{
+    width: 217.86px;
+    height: 37.6px;
+    letter-spacing: 0.5px;
+    vertical-align: baseline;
+    text-align: left;
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 14px;
+    font-family:PlusJakartaRegular ;
+    color:white;
+    margin-top: -56px;
+    margin-left: 332px;
+}
+.new18{
+    width: 203.26px;
+    height: 17.6px;
+    letter-spacing: 0.5px;
+    vertical-align: baseline;
+    text-align: left;
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 14px;
+    font-family:PlusJakartaRegular ;
+    color:white;
+    margin-top: -21px;
+    margin-left: 701px;
+}
+.new19{
+    width: 253.7px;
+    height: 20px;
+    letter-spacing: 0.5px;
+    vertical-align: baseline;
+    text-align: left;
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 14px;
+    font-family:PlusJakartaRegular ;
+    color:white;
+    margin-top: -18px;
+    margin-left: 1013px;
+}
+.new20{
+    display: flex;
+    width: 100%;
+    height: 57px;
+    margin-top: 362px;
+    margin-left: -1356px;
+
+}
+.new21{
+    display: flex;
+    width: 1215.35px;
+    height: 40px;
+    letter-spacing: 0.6px;
+    vertical-align: baseline;
+    text-align: left;
+    font-weight: 500;
+    line-height: 22px;
+    font-size: 14px;
+    font-family: PlusJakartaRegular;
+    color: white;
+    margin-top: 0px;
+    margin-left: 142px;
+}
